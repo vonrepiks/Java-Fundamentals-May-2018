@@ -1,10 +1,10 @@
 package pr0304Barracks.core.commands;
 
+import pr0304Barracks.annotations.Inject;
 import pr0304Barracks.contracts.Executable;
 import pr0304Barracks.contracts.Repository;
 import pr0304Barracks.contracts.Unit;
 import pr0304Barracks.contracts.UnitFactory;
-import pr0304Barracks.core.annotations.Inject;
 
 public class AddCommand implements Executable {
 
